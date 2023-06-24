@@ -16,4 +16,9 @@ class AddTwoNumbersApplicationTests {
 		assertNotEquals(7, addition.add(5, 4));
 	}
 
+	@Test
+	public void testAdd2(){
+		assertEquals(5,addition.add(2,3));
+	}
+
 }
